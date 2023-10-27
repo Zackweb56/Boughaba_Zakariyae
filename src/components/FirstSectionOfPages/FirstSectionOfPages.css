@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&family=Cairo+Play:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;600;700&display=swap');
+
+.section{
+    background-image: url("../../assets/bg_for_every_page.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    width: 99%;
+    height: 90vh;
+    padding-top: 70px;
+    margin-bottom: 58px;
+}
+
+.sections_title{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin-left: 25px;
+    color: #000408;
+}
+
+.section_box{
+    padding: 50px 0;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.sec_img{
+    margin-top: 50px;
+    margin-left: 18%;
+    border-radius: 50%;
+    width: 80%;
+}
+
+@media screen and (max-width:768px) {
+    .section{
+        width: 125%;
+    }
+    .section_box{
+        margin-top: -55px;
+        flex-direction: column-reverse;
+    }
+    .sec_img{
+        width: 90%;
+    }
+    .sections_title{
+        letter-spacing: 5px;
+        font-size: 50px;
+        margin-top: 55px;
+        margin-left: -50px;
+        text-align: start;
+    }
+}
