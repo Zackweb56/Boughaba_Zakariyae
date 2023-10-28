@@ -56,7 +56,7 @@
 .nav .logo {
     width: 100%;
     float: left;
-    margin-left: 28px;
+    /* margin-left: 28px; */
     margin-top: 12px;
     width: auto;
     height: auto;
@@ -131,10 +131,30 @@
     display: none;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
+    #mix_top_nav .email .envelope{
+        font-size: 10px;
+    }
+    #mix_top_nav .email span{
+        margin-top: -10px;
+        font-size: 12px;
+    }
+    #mix_top_nav .social_media{
+        display: none;
+    }
+	.myP {
+		padding:2%;
+	}
+    .email{
+        width: 80%;
+        margin: 0 auto;
+    }
     .affix {
         margin-top: 0;
         height: 48px;
+    }
+    .nav{
+        max-width: 100%;
     }
     .navTrigger {
         display: block;
@@ -160,7 +180,7 @@
         right: 0;
         left: 0;
         bottom: 0;
-        background: rgba(0, 4, 8, 0.651);
+        background: rgba(0, 4, 8, 0.788);
         backdrop-filter: blur( 5.5px );
         -webkit-backdrop-filter: blur( 5.5px );
         border: 1px solid rgba(0, 4, 8, 0.18);
@@ -385,22 +405,4 @@
 	padding-left:15%;
 	padding-right:15%;
 	font-size: 20px;
-}
-
-
-@media all and (max-width:768px){
-    #mix_top_nav .email .envelope{
-        font-size: 10px;
-    }
-    #mix_top_nav .email span{
-        margin-top: -10px;
-        font-size: 12px;
-    }
-    #mix_top_nav .social_media{
-        display: none;
-    }
-	.myP {
-		padding:2%;
-	}
-
 }

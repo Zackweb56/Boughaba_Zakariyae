@@ -25,7 +25,7 @@
     height:6rem;
     width:6rem;
     margin: 15px auto;
-    line-height: 6rem;
+    line-height: 7rem;
     font-size: 3rem;
     color:#fff;
     background:var(--main-color);
@@ -65,4 +65,10 @@
     line-height: 55px;
     font-size: 25px;
     color: #f8f8f8;
+}
+
+@media (max-width:768px) {
+    .additional_box{
+        max-width: 88%;
+    }
 }

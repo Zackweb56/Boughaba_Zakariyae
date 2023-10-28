@@ -18,13 +18,13 @@ function About() {
     };
     return (
     <>
-        <div id="about" style={styles.about} className='container-md'>
+        <div id="about" style={styles.about} className='container'>
             <Titles title='about me' />
-            <div className="row">
-              <div className="img col-lg-6">
-                <img src={About_img} alt="coding..." />
+            <div id='about_container'>
+              <div className="img">
+                <img src={About_img} className="img-fluid" alt="coding..." />
               </div>
-              <div className="about_me col-lg-6 w-100">
+              <div className="about_me">
                 <h1>
                   Hello, <span style={{color:'var(--main-color)'}}>I'm</span> A Full stack developer
                 </h1>

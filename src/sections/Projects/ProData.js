@@ -13,6 +13,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 
 export const ProData = [
     {
+        id: 1,
         project_image: img01,
         project_title: 'Electro. e-commerce website',
         project_desc: [<FaLaravel />  ,  <SiMysql /> ,<FaFigma />,<FaReact/> ,  <BiLogoJquery />],
@@ -20,6 +21,7 @@ export const ProData = [
         // project_link_preview: 'https://github.com/Zackweb56/Electro.e-commerce',
     },
     {
+        id: 2,
         project_image: img03,
         project_title: 'Travel website',
         project_desc: [<FaHtml5 />  ,  <FaCss3Alt />  ,  <BiLogoJquery />  ,<IoLogoJavascript/>,  <FaBootstrap />],
@@ -27,6 +29,7 @@ export const ProData = [
         // project_link_preview: 'https://github.com/Zackweb56/Travel-website-design-html-css',
     },
     {
+        id: 3,
         project_image: img07,
         project_title: 'World Map Website Using API',
         project_desc: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript/>, <FaGear/>],
@@ -34,13 +37,7 @@ export const ProData = [
         // project_link_preview: 'https://github.com/Zackweb56/fastfood_website',
     },
     {
-        project_image: img05,
-        project_title: 'Fast Food website design',
-        project_desc: [<FaHtml5 />,<FaCss3Alt />, <FaBootstrap />, <IoLogoJavascript/>],
-        project_details: '"Expertly built with HTML, CSS, and the power of Bootstrap. Designed seamlessly for all devices, from smartphones to desktops, our site showcases a mouth-watering menu, eye-catching images, and an engaging design that brings our delicious offerings to life."',
-        // project_link_preview: 'https://github.com/Zackweb56/fastfood_website',
-    },
-    {
+        id: 4,
         project_image: img04,
         project_title: 'Drinks website design',
         project_desc: [<FaHtml5 />, <FaCss3Alt />, <FaBootstrap />],
@@ -48,6 +45,15 @@ export const ProData = [
         // project_link_preview: 'https://github.com/Zackweb56/fastfood_website',
     },
     {
+        id: 5,
+        project_image: img05,
+        project_title: 'Fast Food website design',
+        project_desc: [<FaHtml5 />,<FaCss3Alt />, <FaBootstrap />, <IoLogoJavascript/>],
+        project_details: '"Expertly built with HTML, CSS, and the power of Bootstrap. Designed seamlessly for all devices, from smartphones to desktops, our site showcases a mouth-watering menu, eye-catching images, and an engaging design that brings our delicious offerings to life."',
+        // project_link_preview: 'https://github.com/Zackweb56/fastfood_website',
+    },
+    {
+        id: 6,
         project_image: img06,
         project_title: 'MCQ tests web application.',
         project_desc: [<FaLaravel />  , <SiMysql /> , <BiLogoJquery />],

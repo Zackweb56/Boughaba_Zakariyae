@@ -1,15 +1,10 @@
 #skills{
     position: relative;
-    /* margin-top: -100px; */
 }
 
 .skill_01{
     margin-right: 5px;
 }
-
-/* .mt{
-    margin-top: 60px;
-} */
 
 .skill_card{
     position: relative;
@@ -55,17 +50,30 @@
     margin: auto 12%;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     #skills{
-        margin-top: 140%;
+        /* margin-top: 140%; */
+        margin-top: 10%;
     }
     .skill_card{
-        width: 10%;
+        margin-left: -2%;  
     }
+    /* .skill_card .skill_desc{
+        width: 50%;
+    } */
     .slider{
-        margin-left: 8%;
+        /* margin-left: 8%; */
+        width: 80%;
+        margin: 0 auto;
+        /* margin-left: 12%; */
     }
     .skill_card .circle_color_percentage{
         left: 53%;
+    }
+}
+
+@media (max-width: 510px) {
+    #skills{
+        margin-top: 110%;
     }
 }

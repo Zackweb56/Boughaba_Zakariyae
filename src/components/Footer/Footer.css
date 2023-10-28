@@ -23,19 +23,20 @@
     color: var(--main-color);
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     #footer{
         margin-left: 12%;
     }
     .footer{
-        width: 100%;
+        /* width: 113%; */
+        max-width: 100%;
         padding-right: 90px;
     }
     .social_icons{
         margin-left: 37%;
     }
     .copyrights{
-        font-size: 10px;
-        margin-left: 12%;
+        width: 90%;
+        font-size: 15px;
     }
 }

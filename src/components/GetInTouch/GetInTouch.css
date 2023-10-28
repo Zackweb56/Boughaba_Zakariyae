@@ -72,13 +72,21 @@
     color: #ffaa00;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     #getintouch{
         flex-direction: column;
+        margin-left: -20px;
     }
     .getintouch{
         padding: 45px 110px;
-        width: fit-content;
+        /* width: 87.7%; */
+        max-width: 100%;
+    }
+    .get{
+        text-align: center;
+    }
+    .get img{
+        margin-left: 28%;
     }
     .heading_getintouch01{
         font-size: 18px;
@@ -93,6 +101,6 @@
     }
     .social, .Soft_skills, .web_links{
         text-align: center;
-        margin-left: -20px;
+        /* margin-left: -10px; */
     }
 }

@@ -25,9 +25,10 @@
     transform: translateX(20px);
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .move_to_next_page{
-        width: 100%;
+        /* width: 113%; */
+        max-width: 100%;
         padding-right: 90px;
     }
 }

@@ -25,7 +25,7 @@ function Hero() {
             </ul>
         </div >
         <div id="Hero">
-            <div className="Hero d-flex justify-content-between align-items-center">
+            <div className="hero_container">
                 <div className="information">
                     <h1>
                         Hello, <span style={{color:'var(--main-color)'}}>I'm</span> <br /> BOUGHABA ZAKARIA <br /> A Full stack developer

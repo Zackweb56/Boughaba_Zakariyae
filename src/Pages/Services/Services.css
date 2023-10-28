@@ -9,7 +9,7 @@
 .service .box_se-container .box_se{
     flex:1 1 30rem;
     text-align: center;
-    padding:2rem;
+    padding: 2rem;
     border-radius: 16px;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
@@ -21,7 +21,7 @@
     height:6rem;
     width:6rem;
     margin: 15px auto;
-    line-height: 6rem;
+    line-height: 7rem;
     font-size: 3rem;
     color:#fff;
     background:var(--main-color);
@@ -56,8 +56,8 @@
     transform: translateX(2px);
 }
 
-@media screen and (max-width:768px) {
-    .service  .box_se-container  .box_se{
-        margin-right: -70px;   
+@media (max-width:768px) {
+    .service .box_se-container .box_se{
+        max-width: 88%;
     }
 }

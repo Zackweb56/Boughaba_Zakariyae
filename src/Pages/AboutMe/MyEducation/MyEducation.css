@@ -1,6 +1,6 @@
 @media screen and (max-width:768px) {
     .education .box-container .box{
-        margin-right: -70px;   
+        max-width: 100%; 
     }
     .education .box-container .box .content p{
         width: 100%;

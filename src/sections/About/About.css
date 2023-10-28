@@ -1,44 +1,39 @@
 #about{
-    position: relative;
+    /* position: relative; */
     margin-top: 0;
 }
-.about_me{
-    position: absolute;
-    width: 50%;
-    top: 20%;
-    right: 0%;
+#about_container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
 }
-
+#about_container .img{
+    width: 100%;
+    height: auto;
+}
+#about_container .img img{
+    width: 100%;
+}
 .about_me h1{
     font-size: 25px;
     font-weight: bold;
     color: #fff;
 }
-
 .about_me {
+    width: fit-content;
     color: #aaa;
     font-size: 15px;
     line-height: 30px;
 }
-
-.img{
-    width: 100%;
+.about_me p{
+    font-size: 13px;
 }
-
-.img img{
-    position: absolute;
-    top: 9%;
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-    align-items: center;
-}
-
 .about_information{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     line-height: 10px;
     margin: -10px 0 15px 0;
     font-size: 15px;
@@ -67,26 +62,36 @@
     margin-bottom: 15px;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     #about{
-        margin-top: 50px;
+        /* margin-top: 70%; */
+        max-width: 100%;
+        margin: 50% auto 80% auto;
+    }
+    #about_container{
+        flex-direction: column;
     }
     .about_me{
-        width: 100%;
-        margin: 0 -12%;
-        top: 50%;
+        margin: 0 35px;
     }
     .img img{
-        width: 115%;
+        width: 180%;
     }
     .about_information p{
-        width: 100%;
+        max-width: 100%;
     }
     .about_information{
         margin-top: 10px;
-        display: block;
+        display: flex;
     }
     .about_me .btn{
         width: 53%;
+    }
+}
+
+@media (max-width: 530px) {
+    .about_information{
+        /* margin-top: 10px; */
+        display: block;
     }
 }

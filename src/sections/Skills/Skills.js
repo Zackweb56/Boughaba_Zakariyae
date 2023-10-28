@@ -40,20 +40,20 @@ const Skills = () => {
         <Titles title='My skills' />
         <div className="row mt">
             <div className="slider">
-            <Slider {...settings}>
-                {SkillsData.map((item,index)=>{
-                    return (
-                      <div key={index} className="skill_card col-lg-4 col-md-6 col-sm-12 my-2">
-                        <div className="circle_color_percentage" style={{ backgroundColor: item.skill_icon_color, border: `3px solid ${item.skill_icon_border}` }}>
-                          <span style={{ color: item.skill_icon_border }}></span>
+              <Slider {...settings}>
+                  {SkillsData.map((item,index)=>{
+                      return (
+                        <div key={index} className="skill_card my-2">
+                          <div className="circle_color_percentage" style={{ backgroundColor: item.skill_icon_color, border: `3px solid ${item.skill_icon_border}` }}>
+                            <span style={{ color: item.skill_icon_border }}></span>
+                          </div>
+                          <div className="skill_icon">{item.skill_icon}</div>
+                          <h1 className='skill_name'>{item.skill_name}</h1>
+                          <p className='skill_desc'>{item.skill_desc}</p>
                         </div>
-                        <div className="skill_icon">{item.skill_icon}</div>
-                        <h1 className='skill_name'>{item.skill_name}</h1>
-                        <p className='skill_desc'>{item.skill_desc}</p>
-                      </div>
-                    );
-                })}
-            </Slider>
+                      );
+                  })}
+              </Slider>
             </div>
         </div>
     </div>

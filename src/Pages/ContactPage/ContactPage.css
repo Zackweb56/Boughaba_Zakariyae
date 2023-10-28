@@ -67,25 +67,36 @@
     background-color: transparent;
 }
 
+@media (max-width:1200px){
+    .contact form {
+        margin-left: 25%;
+    }
+}
+
 @media (max-width:768px){
     .text {
         margin-left: 8%;
-        width: fit-content;
+    }
+    #contact{
+        width: 100%;
+        /* float: left; */
     }
     .text .text_desc{
-        width: 120%;
+        width: 100%;
     }
-    .contact_note{
-        width: 120%;
-    }
-    .contact_infos p{
-        width: 120%;
+    .text .contact_note,  .text .contact_infos p{
+        max-width: 100%;
     }
     .contact form {
-        width: 100%;
+        width: max-content;
         margin-left: 6%;
     }
     .s_btn{
         margin-left: 15%;
+    }
+}
+@media (max-width:480px){
+    .contact form {
+        max-width:75%;
     }
 }

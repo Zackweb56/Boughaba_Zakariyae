@@ -36,9 +36,9 @@ html{
   color: #000408;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
   body{
-    width: 75%;
+    /* max-width: fit-content; */
     font-size: 100%;
   }
 }
