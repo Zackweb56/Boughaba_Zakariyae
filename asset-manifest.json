@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Boughaba_Zakariyae/static/css/main.a7f89046.css",
-    "main.js": "/Boughaba_Zakariyae/static/js/main.f721b925.js",
+    "main.css": "/Boughaba_Zakariyae/static/css/main.2dd0fcca.css",
+    "main.js": "/Boughaba_Zakariyae/static/js/main.813be7aa.js",
     "static/media/fast_food.png": "/Boughaba_Zakariyae/static/media/fast_food.f2df3460639c866d6d39.png",
     "static/media/comminucative.png": "/Boughaba_Zakariyae/static/media/comminucative.314f6a032847567cc076.png",
     "static/media/collab.png": "/Boughaba_Zakariyae/static/media/collab.217bcd6996bc61605a58.png",
@@ -29,11 +29,11 @@
     "static/media/slick.ttf": "/Boughaba_Zakariyae/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Boughaba_Zakariyae/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Boughaba_Zakariyae/index.html",
-    "main.a7f89046.css.map": "/Boughaba_Zakariyae/static/css/main.a7f89046.css.map",
-    "main.f721b925.js.map": "/Boughaba_Zakariyae/static/js/main.f721b925.js.map"
+    "main.2dd0fcca.css.map": "/Boughaba_Zakariyae/static/css/main.2dd0fcca.css.map",
+    "main.813be7aa.js.map": "/Boughaba_Zakariyae/static/js/main.813be7aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7f89046.css",
-    "static/js/main.f721b925.js"
+    "static/css/main.2dd0fcca.css",
+    "static/js/main.813be7aa.js"
   ]
 }
