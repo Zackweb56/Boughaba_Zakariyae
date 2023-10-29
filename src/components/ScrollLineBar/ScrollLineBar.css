@@ -13,7 +13,7 @@
   transition: width 0.3s ease-in-out;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
   .progress-bar {
     height: 8px;
   }

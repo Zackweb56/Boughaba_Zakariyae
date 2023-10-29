@@ -97,6 +97,16 @@
 }
 @media (max-width:480px){
     .contact form {
-        max-width:75%;
+        max-width: 89%;
+    }
+    #contact{
+        margin-left: -6%;
+    }
+    .text .contact_note, .text .text_desc{
+        text-align: justify;
+    }
+    .s_btn{
+        margin-left: -42%;
+        width: 60%;
     }
 }

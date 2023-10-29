@@ -23,7 +23,7 @@ export default function ContactPage() {
                             This Contact Form is not Available For Sending Messages Right Now, <br /> I Will Fix It Soon... , If You Want To send me a Message Here is My Contact Information :
                         </p>
                         <div className="contact_infos">
-                            <p><span>Whatsapp : </span> +212-674362291 or just &nbsp; <a href="https://wa.me/qr/OK6FDXMFVZOEE1" _blank>click Here</a></p>
+                            <p><span>Whatsapp : </span> +212674362291 or just &nbsp; <a href="https://wa.me/qr/OK6FDXMFVZOEE1" _blank>click Here</a></p>
                             <p><span>Email : </span> boughaba.zakariyae@gmail.com</p>
                         </div>
                     </div>

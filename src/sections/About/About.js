@@ -28,7 +28,7 @@ function About() {
                 <h1>
                   Hello, <span style={{color:'var(--main-color)'}}>I'm</span> A Full stack developer
                 </h1>
-                <p className='text-center'>My name is BOUGHABA ZAKARIYAE, and I am a highly skilled full-stack developer proficient in both front-end and back-end development. I have the ability to create dynamic and user-friendly web applications with exceptional features. I am adept at setting up efficient databases to ensure smooth data management. As a dedicated and hardworking team player, I consistently deliver outstanding results. I am passionate about staying updated on the latest technologies and industry best practices.</p>
+                <p className='about_text_desc'>My name is BOUGHABA ZAKARIYAE, and I am a highly skilled full-stack developer proficient in both front-end and back-end development. I have the ability to create dynamic and user-friendly web applications with exceptional features. I am adept at setting up efficient databases to ensure smooth data management. As a dedicated and hardworking team player, I consistently deliver outstanding results. I am passionate about staying updated on the latest technologies and industry best practices.</p>
                 <div className="about_information" width="100%">
                   <div className="infos_01">
                     <p><span>age : </span> 20</p>

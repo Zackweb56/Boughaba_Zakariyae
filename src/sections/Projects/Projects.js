@@ -41,7 +41,7 @@ const Projects = () => {
                 </div>
                 <div className="btn d-flex justify-content-between align-items-center" style={{ width: '100%' }}>
                   <div className="project_details" onClick={() => handleSelectCard(index)}>
-                  <Button title="details" icon={<FaBook />} />
+                    <Button title="details" icon={<FaBook />} />
                   </div>
                   {selectedCardIndex === index && (
                     <div className="popup">
@@ -52,7 +52,9 @@ const Projects = () => {
                       </div>
                     </div>
                   )}
-                  <Button title="source" link="#" icon={<FaCode />} />
+                  <div className="source_btn">
+                    <Button title="source" link="#" icon={<FaCode />} />
+                  </div>
                 </div>
               </div>
             </div>

@@ -32,7 +32,8 @@ function Navbar() {
             <div className="top_navbar">
                 <div className="d-flex justify-content-between align-items-center" id='mix_top_nav'>
                     <div className="email">
-                        <span className="envelope"><FaEnvelope /></span> <span className='email_span'>boughaba.zakariyae@gmail.com</span>
+                        <span className="envelope"><FaEnvelope /></span> 
+                        <span className='email_span'>boughaba.zakariyae@gmail.com</span>
                     </div>
                     <div className="social_media">
                     <SocialIcons />

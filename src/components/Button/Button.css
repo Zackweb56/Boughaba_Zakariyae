@@ -58,9 +58,3 @@
 .button:active a {
     color: var(--color-button-active);
 }
-
-/* @media screen and (max-width:768px) {
-    .button{
-        width: 100%;
-    }
-} */

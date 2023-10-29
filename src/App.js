@@ -28,8 +28,8 @@ function App() {
     <>
       {isLoading ? (<Loader />) : (
         <Router>
-          <Navbar />
           <ScrollLineBar />
+          <Navbar />
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route path='/AboutMe' element={<AboutMe />} />
@@ -38,7 +38,6 @@ function App() {
             <Route path='/Projects' element={<ProjectsPage />} />
             <Route path='/Contact' element={<ContactPage />} />
           </Routes>
-          {/* <ContactForm /> */}
           <GetInTouch />
           <Footer />
           <ScrollToTop />

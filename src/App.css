@@ -22,6 +22,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 body{
+
   background-color: #000408;
 }
 
@@ -38,7 +39,9 @@ html{
 
 @media (max-width:768px) {
   body{
-    /* max-width: fit-content; */
-    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 96%;
   }
 }

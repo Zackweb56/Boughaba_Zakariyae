@@ -10,7 +10,7 @@ import MoveToNextPage from '../../sections/MoveToNextPage/MoveToNextPage'
 export default function AboutMe() {
   return (
     <>
-      <FirstSectionOfPages title="More Infos" logo={AboutMe_img} />
+      <FirstSectionOfPages title="More Information" logo={AboutMe_img} />
       <div className="container">
         <MyEducation />
         <div className="my-5">

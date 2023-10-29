@@ -76,31 +76,42 @@
     #getintouch{
         flex-direction: column;
         margin-left: -20px;
+        max-width: 100%;
     }
     .getintouch{
         padding: 45px 110px;
-        /* width: 87.7%; */
-        max-width: 100%;
+        /* max-width: 80%; */
     }
     .get{
         text-align: center;
     }
+    .new_logo{
+        margin-left: 35px;
+    }
     .get img{
-        margin-left: 28%;
+        margin-left: 25%;
     }
     .heading_getintouch01{
         font-size: 18px;
-        width: 100%;
+        width: 150%;
+        margin-left: -15%;
     }
     .heading_getintouch02{
         margin-top: 2px;
-        font-size: 26px;
+        font-size: 38px;
+        width: 150%;
+        margin-left: -15%;
     }
     .all_links{
         flex-direction: column;
     }
     .social, .Soft_skills, .web_links{
         text-align: center;
-        /* margin-left: -10px; */
+    }
+}
+
+@media (max-width:480px) {
+    .get img{
+        margin-left: 8%;
     }
 }

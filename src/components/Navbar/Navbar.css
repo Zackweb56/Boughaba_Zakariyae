@@ -14,37 +14,16 @@
     font-size: 18px;
 }
 
-.email_span{
-    transform: scale(1);
-    animation: up_and_down .4s ease infinite;
-}
-
-@keyframes up_and_down {
-    0%{
-        /* color: #d30035; */
-        transform: scale(.5);
-    }
-    50%{
-        /* color: #004e72; */
-        transform: scale(1.2);
-    }
-    100%{
-        /* color: #ffaa00; */
-        transform: scale(.5);
-    }
-}
-
 .nav {
     margin-top: -8px;
+    margin-left: -8px;
     width: 100%;
     text-align: center;
 }
 .affix {
     position: fixed;
-    /* height: 80px; */
     margin-top: -10px;
     background: rgba(0, 4, 8, 0.5);
-    /* background-color: #0d493fa1; */
     backdrop-filter: blur( 5.5px );
     -webkit-backdrop-filter: blur( 5.5px );
     z-index: 1;
@@ -131,7 +110,26 @@
     display: none;
 }
 
+@media (max-width: 480px){
+    .top_navbar{
+        background: none;
+    }    
+    .email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding: 17px 0;
+    }
+    .envelope{
+        margin-top: 5px;
+    }
+} 
+
 @media (max-width:768px) {
+    .top_navbar{
+        background: none;
+    }    
     #mix_top_nav .email .envelope{
         font-size: 10px;
     }
@@ -146,8 +144,9 @@
 		padding:2%;
 	}
     .email{
+        gap: 8px;
         width: 80%;
-        margin: 0 auto;
+        margin: 0px auto;
     }
     .affix {
         margin-top: 0;
@@ -155,6 +154,7 @@
     }
     .nav{
         max-width: 100%;
+        margin: 8px 0;
     }
     .navTrigger {
         display: block;
@@ -176,7 +176,7 @@
         flex-direction: column;
         width: 100%;
         height: 100vh;
-        margin-top: 8.3px;
+        margin-top: 8px;
         right: 0;
         left: 0;
         bottom: 0;

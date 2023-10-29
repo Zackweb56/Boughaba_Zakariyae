@@ -64,18 +64,18 @@
 
 @media (max-width:768px) {
     #about{
-        /* margin-top: 70%; */
-        max-width: 100%;
-        margin: 50% auto 80% auto;
+        max-width: 95%;
+        margin: 50% auto 110% auto;
     }
     #about_container{
         flex-direction: column;
     }
     .about_me{
-        margin: 0 35px;
+        margin: 0 0 0 15px;
     }
     .img img{
         width: 180%;
+        margin-left: -12px;
     }
     .about_information p{
         max-width: 100%;
@@ -91,7 +91,12 @@
 
 @media (max-width: 530px) {
     .about_information{
-        /* margin-top: 10px; */
         display: block;
+    }
+    .about_text_desc{
+        text-align: justify;
+    }
+    .img img{
+        margin-left: -2%;
     }
 }

@@ -9,7 +9,7 @@ import './Hero.css'
 
 function Hero() {
     return (
-    <div className='container-md'>
+    <div className='test container-md'>
         <div className="area" >
             <ul className="circles">
                 <li></li>

@@ -76,9 +76,16 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
+    .center{
+        margin-top: 80%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:480px) {
     .center{
         margin-top: 120%;
-        margin-left: 28%;
+        margin-left: 2%;
     }
 }

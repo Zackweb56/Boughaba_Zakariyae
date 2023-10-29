@@ -10,15 +10,14 @@ import MoveToNextPage from '../../sections/MoveToNextPage/MoveToNextPage';
 
 const Home = () => {
   return (
-    <div>
-        {/* <Navbar /> */}
+    <>
         <Hero />
         <About />
         <Skills />
         <HireMe />
         <Projects />
         <MoveToNextPage move_title="More Information" move_link="/AboutMe" />
-    </div>
+    </>
   )
 }
 

@@ -3,6 +3,7 @@
     font-size: 40px;
     font-weight: bold;
     margin-top: 70px;
+    margin-left: 15px;
     color: #fff;
     text-align: center;
     text-transform: capitalize;
@@ -15,9 +16,3 @@
     height: 3px;
     width: 100px;
 }
-
-/* @media (max-width:768px) {
-    .title{
-        margin-left: 25%;
-    }
-} */

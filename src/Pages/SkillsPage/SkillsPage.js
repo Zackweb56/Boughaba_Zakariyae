@@ -53,7 +53,7 @@ export default function SkillsPage() {
             </div>
             <div className="certification_section">
               <Titles title="Certificates" />
-              <div className="d-flex justify-content-center align-items-center">
+              <div className="certif_box d-flex justify-content-center align-items-center">
                 <div className="qr_code_certife">
                   <img src={QR_code} alt="qr_code_Certificate" />
                 </div>

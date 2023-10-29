@@ -47,25 +47,20 @@
     color: #aaa;
     line-height:25px;
     text-align: center;
-    margin: auto 12%;
+    margin: auto 13%;
 }
 
 @media (max-width:768px) {
     #skills{
-        /* margin-top: 140%; */
+        max-width: 95%;
         margin-top: 10%;
     }
     .skill_card{
         margin-left: -2%;  
     }
-    /* .skill_card .skill_desc{
-        width: 50%;
-    } */
     .slider{
-        /* margin-left: 8%; */
         width: 80%;
         margin: 0 auto;
-        /* margin-left: 12%; */
     }
     .skill_card .circle_color_percentage{
         left: 53%;
@@ -74,6 +69,9 @@
 
 @media (max-width: 510px) {
     #skills{
-        margin-top: 110%;
+        margin-top: 15%;
+    }
+    .skill_card{
+        margin-left: -4%;  
     }
 }
