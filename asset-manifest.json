@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Boughaba_Zakariyae/static/css/main.68bf34ba.css",
-    "main.js": "/Boughaba_Zakariyae/static/js/main.8db36511.js",
+    "main.css": "/Boughaba_Zakariyae/static/css/main.9babe003.css",
+    "main.js": "/Boughaba_Zakariyae/static/js/main.4eba1701.js",
     "static/media/fast_food.png": "/Boughaba_Zakariyae/static/media/fast_food.f2df3460639c866d6d39.png",
     "static/media/comminucative.png": "/Boughaba_Zakariyae/static/media/comminucative.314f6a032847567cc076.png",
     "static/media/collab.png": "/Boughaba_Zakariyae/static/media/collab.217bcd6996bc61605a58.png",
@@ -13,6 +13,7 @@
     "static/media/bg_for_every_page.png": "/Boughaba_Zakariyae/static/media/bg_for_every_page.8de6a84f443c402aa145.png",
     "static/media/coding.png": "/Boughaba_Zakariyae/static/media/coding.d7abfb42ee76cab24e35.png",
     "static/media/my_cv_english.pdf": "/Boughaba_Zakariyae/static/media/my_cv_english.694aee516c88e732c35f.pdf",
+    "static/media/contact_img.png": "/Boughaba_Zakariyae/static/media/contact_img.46a34d6755de1c345b75.png",
     "static/media/qr_code.png": "/Boughaba_Zakariyae/static/media/qr_code.c123cc9ea57cdc07d341.png",
     "static/media/travel.png": "/Boughaba_Zakariyae/static/media/travel.4e4f98998863d731faf8.png",
     "static/media/electro.jpg": "/Boughaba_Zakariyae/static/media/electro.b2e95c8dfef9f1c2c310.jpg",
@@ -29,11 +30,11 @@
     "static/media/slick.ttf": "/Boughaba_Zakariyae/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Boughaba_Zakariyae/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Boughaba_Zakariyae/index.html",
-    "main.68bf34ba.css.map": "/Boughaba_Zakariyae/static/css/main.68bf34ba.css.map",
-    "main.8db36511.js.map": "/Boughaba_Zakariyae/static/js/main.8db36511.js.map"
+    "main.9babe003.css.map": "/Boughaba_Zakariyae/static/css/main.9babe003.css.map",
+    "main.4eba1701.js.map": "/Boughaba_Zakariyae/static/js/main.4eba1701.js.map"
   },
   "entrypoints": [
-    "static/css/main.68bf34ba.css",
-    "static/js/main.8db36511.js"
+    "static/css/main.9babe003.css",
+    "static/js/main.4eba1701.js"
   ]
 }
