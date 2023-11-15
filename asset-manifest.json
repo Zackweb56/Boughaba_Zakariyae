@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Boughaba_Zakariyae/static/css/main.4b678df2.css",
-    "main.js": "/Boughaba_Zakariyae/static/js/main.d7b32c46.js",
+    "main.css": "/Boughaba_Zakariyae/static/css/main.6e1779ff.css",
+    "main.js": "/Boughaba_Zakariyae/static/js/main.71638fbb.js",
     "static/media/travel01.png": "/Boughaba_Zakariyae/static/media/travel01.dae820d9b92f6715160e.png",
     "static/media/p5img4.png": "/Boughaba_Zakariyae/static/media/p5img4.93078be42a54586417b3.png",
     "static/media/p5img9.png": "/Boughaba_Zakariyae/static/media/p5img9.f09803bf83d4d6ad2345.png",
@@ -79,11 +79,11 @@
     "static/media/slick.ttf": "/Boughaba_Zakariyae/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Boughaba_Zakariyae/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Boughaba_Zakariyae/index.html",
-    "main.4b678df2.css.map": "/Boughaba_Zakariyae/static/css/main.4b678df2.css.map",
-    "main.d7b32c46.js.map": "/Boughaba_Zakariyae/static/js/main.d7b32c46.js.map"
+    "main.6e1779ff.css.map": "/Boughaba_Zakariyae/static/css/main.6e1779ff.css.map",
+    "main.71638fbb.js.map": "/Boughaba_Zakariyae/static/js/main.71638fbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b678df2.css",
-    "static/js/main.d7b32c46.js"
+    "static/css/main.6e1779ff.css",
+    "static/js/main.71638fbb.js"
   ]
 }
